@@ -35,3 +35,11 @@ You can find the Extent reports in the following directory of the Project.
 {project path}\extentReports\
 
 In extentReports directory, open latest folder to view 'Report.html' file to view the report.
+
+
+## Major issues found on Staging (extent report attached for the same) :
+
+Number 5 takes value as 6.
+Multiplication is failing e.g. 7*4 is showing as 30
+Devision failing in case odd number is devided by even e.g. 9/2 is showing 5
+Any operation with decimal number outputs wrong result.

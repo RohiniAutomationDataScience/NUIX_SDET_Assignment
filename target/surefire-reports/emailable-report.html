@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">WebServices-Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">174</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WebServices-Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">calc.testCases.CalcDemoTC.CalcTest</td><td><a href="#m0">VerifyCalcOperations</a></td><td rowspan="1">1696481590776</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>WebServices-Test</h2><h3 id="m0">calc.testCases.CalcDemoTC.CalcTest#VerifyCalcOperations</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Failed to read the file input stream from file: &apos;C:\Users\visha\OneDrive\Desktop\Assurity\Combined\NUIX_SDET_AssignmentDemo_Automation\TestData.xlsx&apos;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Failed to read the file input stream from file: &apos;C:\Users\visha\OneDrive\Desktop\Assurity\Combined\NUIX_SDET_AssignmentDemo_Automation\TestData.xlsx&apos;
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:172)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:145)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:120)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:257)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:188)
+	at org.apache.poi.POIXMLDocument.openPackage(POIXMLDocument.java:90)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:330)
+	at calc.testCases.CalcDemoTC.CalcTest.getDataFromSheet(CalcTest.java:26)
+	... 12 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Failed to read the zip entry source stream
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:198)
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:164)
+	... 26 more
+Caused by: org.apache.poi.openxml4j.exceptions.InvalidOperationException: Could not open the specified zip entry source stream
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:208)
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:190)
+	... 27 more
+Caused by: java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:245)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
+	at java.base/java.util.zip.ZipInputStream.read(ZipInputStream.java:197)
+	at org.apache.poi.openxml4j.util.ZipSecureFile$ThresholdInputStream.read(ZipSecureFile.java:213)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource$FakeZipEntry.&lt;init&gt;(ZipInputStreamZipEntrySource.java:132)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:56)
+	at org.apache.poi.openxml4j.opc.ZipPackage.openZipEntrySourceStream(ZipPackage.java:206)
+	... 28 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

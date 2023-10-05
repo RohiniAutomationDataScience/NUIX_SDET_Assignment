@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+		<!-- document encoding -->
+        <encoding>Cp1252</encoding>
+		<!-- title of the document -->
+        <documentTitle></documentTitle>
+	   <!-- report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+                <img src='.\Logo.PNG' />
+            ]]>
+        </reportName>
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        <reportHeadline>NUIX SDET Report - WEB UI Automation</reportHeadline>
+		<!-- custom javascript -->
+        <scripts>
+            [CDATA[
+                $(document).ready(function() {				
+				$(".logo-container").hide();
+                });
+            ]]
+        </scripts>
+        <!-- custom styles -->
+        <styles>
+            [CDATA[
+					.report-headline { font-size: 25px; text-align: center; padding-left:30%;}
+					.logo-content { padding-left: 10px; } 
+					.report-name { display: inline-block; padding-left: 0px !important; float: left; }
+					.report-name > img { float: left; height: 90%; margin-top: 2px; width: 225px; }
+					.side-nav { background: #f3f3f3;transition-duration: .25s;top: 80px;width: 70px;}
+					nav {padding-left: 0px; height: 80px; }
+					#myTable { border:1px solid lightgrey; }
+					#myTable td, #myTable th { border-right:1px solid lightgrey; text-align:center !important; width:50%; }
+            ]]
+        </styles>
+    </configuration>
+</extentreports>

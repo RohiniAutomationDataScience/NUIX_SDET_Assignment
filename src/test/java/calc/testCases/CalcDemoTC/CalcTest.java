@@ -7,13 +7,9 @@ import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import calc.utility.base.BaseTestClass;
-import calc.utility.base.ExcelDataProvider;
-import calc.wspages.calcDemo.WebCalcLoad23;
 import calc.wspages.calcDemo.WebCalcLoad;
 
 
@@ -33,8 +29,6 @@ public class CalcTest  extends BaseTestClass {
 			Row row = workSheet.getRow(i);
 			for (int j = row.getFirstCellNum(); j < row.getLastCellNum(); j++) {
 				Cell cell = row.getCell(j);
-				//  dataTable[i][j] = cell.getNumericCellValue();
-
 				DataFormatter df = new DataFormatter();
 				dataTable[i][j]  = df.formatCellValue(cell);
 

@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T10:21:18 IST" name="Suite" finished-at="2023-10-05T10:21:30 IST" duration-ms="11899">
+  <suite started-at="2023-10-05T11:13:05 IST" name="Default suite" finished-at="2023-10-05T11:13:14 IST" duration-ms="9620">
     <groups>
     </groups>
-    <test started-at="2023-10-05T10:21:18 IST" name="WebServices-Test" finished-at="2023-10-05T10:21:30 IST" duration-ms="11899">
+    <test started-at="2023-10-05T11:13:05 IST" name="Default test" finished-at="2023-10-05T11:13:14 IST" duration-ms="9620">
       <class name="calc.testCases.CalcDemoTC.CalcTest">
-        <test-method is-config="true" signature="setSuiteSetUp()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:18 IST" name="setSuiteSetUp" finished-at="2023-10-05T10:21:18 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="setSuiteSetUp()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:05 IST" name="setSuiteSetUp" finished-at="2023-10-05T11:13:05 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setSuiteSetUp -->
-        <test-method is-config="true" signature="beforeBaseClass(org.testng.ITestContext)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:18 IST" name="beforeBaseClass" finished-at="2023-10-05T10:21:18 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="beforeBaseClass(org.testng.ITestContext)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:05 IST" name="beforeBaseClass" finished-at="2023-10-05T11:13:05 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@565b064f]]>
+                <![CDATA[org.testng.TestRunner@377949f1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeBaseClass -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:18 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:21 IST" duration-ms="2344" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:05 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:07 IST" duration-ms="1593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,14 +31,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@58c34bb3]]>
+                <![CDATA[[Ljava.lang.Object;@7f0a133d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:21 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:21 IST" duration-ms="360" status="PASS">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:07 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:07 IST" duration-ms="458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:21 IST" name="afterMethod" finished-at="2023-10-05T10:21:21 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:07 IST" name="afterMethod" finished-at="2023-10-05T11:13:07 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:21 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:22 IST" duration-ms="1007" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:07 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:08 IST" duration-ms="1041" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,14 +77,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@56a4479a]]>
+                <![CDATA[[Ljava.lang.Object;@241fbec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:22 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:23 IST" duration-ms="327" status="PASS">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:08 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:09 IST" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,11 +110,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:23 IST" name="afterMethod" finished-at="2023-10-05T10:21:23 IST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:09 IST" name="afterMethod" finished-at="2023-10-05T11:13:09 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:23 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:25 IST" duration-ms="1874" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:09 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:10 IST" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,14 +123,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@62163b39]]>
+                <![CDATA[[Ljava.lang.Object;@715fa8c5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:25 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:25 IST" duration-ms="289" status="PASS">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:10 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:10 IST" duration-ms="289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:25 IST" name="afterMethod" finished-at="2023-10-05T10:21:25 IST" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:10 IST" name="afterMethod" finished-at="2023-10-05T11:13:10 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:25 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:26 IST" duration-ms="945" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:10 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:11 IST" duration-ms="1039" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,14 +169,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@20a8a64e]]>
+                <![CDATA[[Ljava.lang.Object;@644a3add]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:26 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:26 IST" duration-ms="295" status="PASS">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:11 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:12 IST" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,11 +202,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:26 IST" name="afterMethod" finished-at="2023-10-05T10:21:26 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:12 IST" name="afterMethod" finished-at="2023-10-05T11:13:12 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:26 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:28 IST" duration-ms="1977" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:12 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:12 IST" duration-ms="947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,14 +215,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@62f4ff3b]]>
+                <![CDATA[[Ljava.lang.Object;@4b765e92]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:28 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:29 IST" duration-ms="334" status="FAIL">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:13 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:13 IST" duration-ms="328" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -256,8 +256,8 @@ at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
 at calc.utility.reports.Reporter.logFail(Reporter.java:153)
 at calc.utility.reports.Reporter.logIntoReport(Reporter.java:128)
-at calc.wspages.calcDemo.WebCalcLoad.validateResult(WebCalcLoad.java:211)
-at calc.testCases.CalcDemoTC.CalcTest.VerifyCalcOperations(CalcTest.java:53)
+at calc.wspages.calcDemo.WebCalcLoad.validateResult(WebCalcLoad.java:183)
+at calc.testCases.CalcDemoTC.CalcTest.VerifyCalcOperations(CalcTest.java:47)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -270,20 +270,33 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:29 IST" name="afterMethod" finished-at="2023-10-05T10:21:29 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:13 IST" name="afterMethod" finished-at="2023-10-05T11:13:13 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:29 IST" name="invokeWSTestcase" finished-at="2023-10-05T10:21:30 IST" duration-ms="938" status="PASS">
+        <test-method is-config="true" signature="invokeWSTestcase(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:13 IST" name="invokeWSTestcase" finished-at="2023-10-05T11:13:14 IST" duration-ms="1028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,14 +305,14 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1698fc68]]>
+                <![CDATA[[Ljava.lang.Object;@4665428b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeWSTestcase -->
-        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:30 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T10:21:30 IST" duration-ms="324" status="PASS">
+        <test-method signature="VerifyCalcOperations(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:14 IST" name="VerifyCalcOperations" data-provider="getData" finished-at="2023-10-05T11:13:14 IST" duration-ms="357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,19 +338,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalcOperations -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:30 IST" name="afterMethod" finished-at="2023-10-05T10:21:30 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:14 IST" name="afterMethod" finished-at="2023-10-05T11:13:14 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterBaseClass()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:30 IST" name="afterBaseClass" finished-at="2023-10-05T10:21:30 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterBaseClass()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:14 IST" name="afterBaseClass" finished-at="2023-10-05T11:13:14 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterBaseClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@198d6542]" started-at="2023-10-05T10:21:30 IST" name="afterSuite" finished-at="2023-10-05T10:21:30 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:calc.testCases.CalcDemoTC.CalcTest@2812b107]" started-at="2023-10-05T11:13:14 IST" name="afterSuite" finished-at="2023-10-05T11:13:15 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- calc.testCases.CalcDemoTC.CalcTest -->
-    </test> <!-- WebServices-Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
